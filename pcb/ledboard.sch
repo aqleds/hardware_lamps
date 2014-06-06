@@ -1,0 +1,690 @@
+EESchema Schematic File Version 2  date Thursday, 06 June 2013 16:29:27
+LIBS:ledboard
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "LAMP  ::  led board"
+Date "6 jun 2013"
+Rev "REL-1.00A"
+Comp "NBEE Embedded Systems SL"
+Comment1 "Designed by: Tomé Veríssimo [tomeverissimo@nbee.es]"
+Comment2 "Approved by: Miguel Angel Ajo Pelayo [+(34)911407752  ::  miguelangel@nbee.es]"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 514F4FFF
+P 800 7350
+F 0 "#FLG01" H 800 7350 50  0001 C CNN
+F 1 "PWR_FLAG" H 800 7600 50  0000 C CNN
+F 2 "" H 800 7350 60  0001 C CNN
+F 3 "" H 800 7350 60  0001 C CNN
+	1    800  7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	800  7350 800  7450
+$Comp
+L GND #PWR02
+U 1 1 514F502C
+P 800 7450
+F 0 "#PWR02" H 800 7450 50  0001 C CNN
+F 1 "GND" H 800 7450 50  0001 C CNN
+F 2 "" H 800 7450 60  0001 C CNN
+F 3 "" H 800 7450 60  0001 C CNN
+	1    800  7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG03
+U 1 1 514F5039
+P 1350 7350
+F 0 "#FLG03" H 1350 7350 50  0001 C CNN
+F 1 "PWR_FLAG" H 1350 7600 50  0000 C CNN
+F 2 "" H 1350 7350 60  0001 C CNN
+F 3 "" H 1350 7350 60  0001 C CNN
+	1    1350 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 7350 1350 7450
+Wire Wire Line
+	1350 7450 1650 7450
+Wire Wire Line
+	1650 7450 1650 7350
+$Comp
+L +12V #PWR04
+U 1 1 514F505E
+P 1650 7350
+F 0 "#PWR04" H 1650 7350 50  0001 C CNN
+F 1 "+12V" H 1650 7450 50  0000 C CNN
+F 2 "" H 1650 7350 60  0001 C CNN
+F 3 "" H 1650 7350 60  0001 C CNN
+	1    1650 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR05
+U 1 1 514F50C9
+P 1350 2450
+F 0 "#PWR05" H 1350 2450 50  0001 C CNN
+F 1 "+12V" H 1350 2550 50  0000 C CNN
+F 2 "" H 1350 2450 60  0001 C CNN
+F 3 "" H 1350 2450 60  0001 C CNN
+	1    1350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 514F520B
+P 1350 3450
+F 0 "#PWR06" H 1350 3450 50  0001 C CNN
+F 1 "GND" H 1350 3450 50  0001 C CNN
+F 2 "" H 1350 3450 60  0001 C CNN
+F 3 "" H 1350 3450 60  0001 C CNN
+	1    1350 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2450 1350 2550
+Wire Wire Line
+	1350 2550 1750 2550
+Wire Wire Line
+	1350 3450 1350 3350
+Wire Wire Line
+	1350 3350 1750 3350
+$Comp
+L 0R_0603 R101
+U 1 1 514F8481
+P 2000 2550
+F 0 "R101" V 2050 2850 60  0000 C CNN
+F 1 "0R_0603" H 2000 2550 60  0001 C CNN
+F 2 "R_0603" H 2000 2550 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 2000 2550 60  0001 C CNN
+F 4 "100 Ohm" V 2050 2250 60  0000 C CNN "Label"
+F 5 "Resistor 0R 0603" H 2000 2550 60  0001 C CNN "Keywords"
+F 6 "Bourns - CR0603-J/-000ELF" H 2000 2550 60  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 2000 2550 60  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 2000 2550 60  0000 C CNN "Variant"
+F 9 "Farnell - 2008343" H 2000 2550 60  0001 C CNN "Fast Supplier Code 1"
+F 10 "1%" H 2000 2550 60  0001 C CNN "tolerance"
+	1    2000 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0R_0603 R108
+U 1 1 514F84EB
+P 2000 3650
+F 0 "R108" V 2050 3950 60  0000 C CNN
+F 1 "0R_0603" H 2000 3650 60  0001 C CNN
+F 2 "R_0603" H 2000 3650 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 2000 3650 60  0001 C CNN
+F 4 "0R" V 2050 3350 60  0000 C CNN "Label"
+F 5 "Resistor 0R 0603" H 2000 3650 60  0001 C CNN "Keywords"
+F 6 "Bourns - CR0603-J/-000ELF" H 2000 3650 60  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 2000 3650 60  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 2000 3650 60  0000 C CNN "Variant"
+F 9 "Farnell - 2008343" H 2000 3650 60  0001 C CNN "Fast Supplier Code 1"
+F 10 "1%" H 2000 3650 60  0001 C CNN "tolerance"
+	1    2000 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NCR_0603 R103
+U 1 1 514F84F3
+P 2000 2750
+F 0 "R103" V 2050 3050 60  0000 C CNN
+F 1 "NCR_0603" H 2000 2750 60  0001 C CNN
+F 2 "R_0603" H 2000 2750 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 2000 2750 60  0001 C CNN
+F 4 "NCR" V 2050 2450 60  0000 C CNN "Label"
+F 5 "Resistor NCR 0603" H 2000 2750 60  0001 C CNN "Keywords"
+F 6 "NOT_ASSEMBLE - NOT_ASSEMBLE" H 2000 2750 60  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 2000 2750 60  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 2000 2750 60  0000 C CNN "Variant"
+F 9 "Unknown" H 2000 2750 60  0001 C CNN "value"
+F 10 "NOT_ASSEMBLE - NOT_ASSEMBLE" H 2000 2750 60  0001 C CNN "Fast Supplier Code 1"
+	1    2000 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L NCR_0603 R105
+U 1 1 514F8575
+P 2000 3350
+F 0 "R105" V 2050 3650 60  0000 C CNN
+F 1 "NCR_0603" H 2000 3350 60  0001 C CNN
+F 2 "R_0603" H 2000 3350 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 2000 3350 60  0001 C CNN
+F 4 "NCR" V 2050 3050 60  0000 C CNN "Label"
+F 5 "Resistor NCR 0603" H 2000 3350 60  0001 C CNN "Keywords"
+F 6 "NOT_ASSEMBLE - NOT_ASSEMBLE" H 2000 3350 60  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 2000 3350 60  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 2000 3350 60  0000 C CNN "Variant"
+F 9 "Unknown" H 2000 3350 60  0001 C CNN "value"
+F 10 "NOT_ASSEMBLE - NOT_ASSEMBLE" H 2000 3350 60  0001 C CNN "Fast Supplier Code 1"
+	1    2000 3350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1550 3350
+Connection ~ 1550 2550
+Wire Wire Line
+	2250 2550 2750 2550
+Text Label 2500 2550 0    60   ~ 0
+LED_1
+Wire Wire Line
+	2250 3350 2750 3350
+Text Label 2500 3350 0    60   ~ 0
+LED_1
+$Comp
+L HL-AF-5060H343W-3-S1-T1 D101
+U 1 1 514F87D2
+P 5750 2200
+F 0 "D101" V 5800 2750 60  0000 C CNN
+F 1 "HL-AF-5060H343W-3-S1-T1" H 5750 2200 60  0001 C CNN
+F 2 "LED-SMD-6" H 5750 2200 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 5750 2200 60  0001 C CNN
+F 4 "LED_WHITE" V 5700 2800 60  0000 C CNN "Label"
+F 5 "LED White HL-AF-5060H343W-3-S1-T1 SMD" H 5750 2200 60  0001 C CNN "Keywords"
+F 6 "Honglitronic - HL-AF-5060H343W-3-S1-T1" H 5750 2200 60  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 5750 2200 60  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 5750 2200 60  0000 C CNN "Variant"
+F 9 "Unknown - Unknown" H 5750 2200 60  0001 C CNN "Fast Supplier Code 1"
+F 10 "White" H 5750 2200 60  0001 C CNN "colour"
+	1    5750 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HTLB4A-46 D102
+U 1 1 514F87E5
+P 5750 3000
+F 0 "D102" V 5700 2450 60  0000 C CNN
+F 1 "HTLB4A-46" H 5750 3000 60  0001 C CNN
+F 2 "LED-SMD-6" H 5750 3000 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 5750 3000 60  0001 C CNN
+F 4 "LED_RED" V 5800 2450 60  0000 C CNN "Label"
+F 5 "LED Red HTLB4a-46 SMD" H 5750 3000 60  0001 C CNN "Keywords"
+F 6 "Huey Jann Electronics Industry Co, Ltd - HTLB4a-46" H 5750 3000 60  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 5750 3000 60  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 5750 3000 60  0000 C CNN "Variant"
+F 9 "Unknown - Unknown" H 5750 3000 60  0001 C CNN "Fast Supplier Code 1"
+F 10 "Red" H 5750 3000 60  0001 C CNN "colour"
+	1    5750 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L HTLB4A-48 D103
+U 1 1 514F87F2
+P 5750 3800
+F 0 "D103" V 5800 4350 60  0000 C CNN
+F 1 "HTLB4A-48" H 5750 3800 60  0001 C CNN
+F 2 "LED-SMD-6" H 5750 3800 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 5750 3800 60  0001 C CNN
+F 4 "LED_BLUE" V 5700 4400 60  0000 C CNN "Label"
+F 5 "LED Blue HTLB4a-48 SMD" H 5750 3800 60  0001 C CNN "Keywords"
+F 6 "Huey Jann Electronics Industry Co, Ltd - HTLB4a-48" H 5750 3800 60  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 5750 3800 60  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 5750 3800 60  0000 C CNN "Variant"
+F 9 "Unknown - Unknown" H 5750 3800 60  0001 C CNN "Fast Supplier Code 1"
+F 10 "Blue" H 5750 3800 60  0001 C CNN "colour"
+	1    5750 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5550 2500 5550 2700
+Wire Wire Line
+	5750 2500 5750 2700
+Wire Wire Line
+	5950 2500 5950 2700
+Wire Wire Line
+	5550 2600 5950 2600
+Connection ~ 5750 2600
+Connection ~ 5950 2600
+Connection ~ 5550 2600
+Wire Wire Line
+	5550 3300 5550 3500
+Wire Wire Line
+	5750 3300 5750 3500
+Wire Wire Line
+	5950 3300 5950 3500
+Wire Wire Line
+	5550 3400 5950 3400
+Connection ~ 5750 3400
+Connection ~ 5950 3400
+Connection ~ 5550 3400
+$Comp
+L HL-AF-5060H343W-3-S1-T1 D104
+U 1 1 514F89DC
+P 7100 2200
+F 0 "D104" V 7150 2750 60  0000 C CNN
+F 1 "HL-AF-5060H343W-3-S1-T1" H 7100 2200 60  0001 C CNN
+F 2 "LED-SMD-6" H 7100 2200 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 7100 2200 60  0001 C CNN
+F 4 "LED_WHITE" V 7050 2800 60  0000 C CNN "Label"
+F 5 "LED White HL-AF-5060H343W-3-S1-T1 SMD" H 7100 2200 60  0001 C CNN "Keywords"
+F 6 "Honglitronic - HL-AF-5060H343W-3-S1-T1" H 7100 2200 60  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 7100 2200 60  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 7100 2200 60  0000 C CNN "Variant"
+F 9 "Unknown - Unknown" H 7100 2200 60  0001 C CNN "Fast Supplier Code 1"
+F 10 "White" H 7100 2200 60  0001 C CNN "colour"
+	1    7100 2200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L HTLB4A-46 D105
+U 1 1 514F89E9
+P 7100 3000
+F 0 "D105" V 7050 2450 60  0000 C CNN
+F 1 "HTLB4A-46" H 7100 3000 60  0001 C CNN
+F 2 "LED-SMD-6" H 7100 3000 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 7100 3000 60  0001 C CNN
+F 4 "LED_RED" V 7150 2450 60  0000 C CNN "Label"
+F 5 "LED Red HTLB4a-46 SMD" H 7100 3000 60  0001 C CNN "Keywords"
+F 6 "Huey Jann Electronics Industry Co, Ltd - HTLB4a-46" H 7100 3000 60  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 7100 3000 60  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 7100 3000 60  0000 C CNN "Variant"
+F 9 "Unknown - Unknown" H 7100 3000 60  0001 C CNN "Fast Supplier Code 1"
+F 10 "Red" H 7100 3000 60  0001 C CNN "colour"
+	1    7100 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L HTLB4A-48 D106
+U 1 1 514F89F6
+P 7100 3800
+F 0 "D106" V 7150 4350 60  0000 C CNN
+F 1 "HTLB4A-48" H 7100 3800 60  0001 C CNN
+F 2 "LED-SMD-6" H 7100 3800 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 7100 3800 60  0001 C CNN
+F 4 "LED_BLUE" V 7050 4400 60  0000 C CNN "Label"
+F 5 "LED Blue HTLB4a-48 SMD" H 7100 3800 60  0001 C CNN "Keywords"
+F 6 "Huey Jann Electronics Industry Co, Ltd - HTLB4a-48" H 7100 3800 60  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 7100 3800 60  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 7100 3800 60  0000 C CNN "Variant"
+F 9 "Unknown - Unknown" H 7100 3800 60  0001 C CNN "Fast Supplier Code 1"
+F 10 "Blue" H 7100 3800 60  0001 C CNN "colour"
+	1    7100 3800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 2500 6900 2700
+Wire Wire Line
+	7100 2500 7100 2700
+Wire Wire Line
+	7300 2500 7300 2700
+Wire Wire Line
+	6900 2600 7300 2600
+Connection ~ 7100 2600
+Connection ~ 7300 2600
+Connection ~ 6900 2600
+Wire Wire Line
+	6900 3300 6900 3500
+Wire Wire Line
+	7100 3300 7100 3500
+Wire Wire Line
+	7300 3300 7300 3500
+Wire Wire Line
+	6900 3400 7300 3400
+Connection ~ 7100 3400
+Connection ~ 7300 3400
+Connection ~ 6900 3400
+Wire Wire Line
+	5550 1900 5550 1800
+Wire Wire Line
+	5950 1800 5950 1900
+Connection ~ 5750 1800
+Wire Wire Line
+	6900 1800 6900 1900
+Wire Wire Line
+	7300 1800 7300 1900
+Connection ~ 7100 1800
+Wire Wire Line
+	5550 4100 5550 4200
+Wire Wire Line
+	7300 4200 7300 4100
+Wire Wire Line
+	7100 4200 7100 4100
+Connection ~ 7100 4200
+Wire Wire Line
+	6900 4100 6900 4200
+Connection ~ 6900 4200
+Wire Wire Line
+	5750 4200 5750 4100
+Connection ~ 5750 4200
+Wire Wire Line
+	5950 4200 5950 4100
+Connection ~ 5550 4200
+Text Label 4950 1800 0    60   ~ 0
+LED_1
+Text Label 6300 1800 0    60   ~ 0
+LED_2
+Wire Wire Line
+	2250 2650 2750 2650
+Text Label 2500 2650 0    60   ~ 0
+LED_2
+Wire Wire Line
+	1750 2650 1550 2650
+Wire Wire Line
+	2250 3450 2750 3450
+Text Label 2500 3450 0    60   ~ 0
+LED_2
+Wire Wire Line
+	1750 3450 1550 3450
+Text Notes 950  5100 0    50   ~ 0
+Colour  Lum (mcd - A)  Lum (adj - A)         V (V)  R (ohm)     I (A - 90% lum)   V (V - 90% lum)  R (ohm - 90% lum)\n\nWhite    6000 - 0.06    600 - 0.0075-0.01  2.75   250-187.5        0.055               3.1                 24.5\n\nBlue      530 - 0.06       530 - 0.06         3.3      17.5              -                  -                   -\n\nRed      1300 - 0.06      650 - 0.035        2.0        50            0.055               2.1                 51.8
+Wire Notes Line
+	900  5600 900  5000
+Wire Notes Line
+	1250 5000 1250 5600
+Wire Notes Line
+	1900 5000 1900 5600
+Wire Notes Line
+	2750 5000 2750 5600
+Wire Notes Line
+	3050 5000 3050 5600
+Wire Wire Line
+	5750 1800 5750 1900
+Connection ~ 6900 1800
+Wire Wire Line
+	7100 1800 7100 1900
+Connection ~ 5550 1800
+Wire Wire Line
+	1550 3350 1550 3650
+Wire Wire Line
+	1550 2550 1550 2850
+Wire Notes Line
+	3550 5000 3550 5600
+Wire Notes Line
+	4300 5000 4300 5600
+$Comp
+L HIROSE_DF23C-10DS-0.5V J101
+U 1 1 51516AC7
+P 1850 1350
+F 0 "J101" H 1850 1650 60  0000 C CNN
+F 1 "HIROSE_DF23C-10DS-0.5V" H 1850 1350 60  0001 C CNN
+F 2 "HIROSE_DF23C-10DS-0.5V" H 1850 1350 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 1850 1350 60  0001 C CNN
+F 4 "NC DF23C-10DS-0.5V" H 1850 1050 60  0000 C CNN "Label"
+F 5 "Hirose - DF23C-10DS-0.5V" H 1850 1350 60  0001 C CNN "First Manufacturer Code"
+F 6 "Unknown - Unknown" H 1850 1350 60  0001 C CNN "Second Manufacturer Code"
+F 7 "~" H 1850 1350 60  0000 C CNN "Variant"
+F 8 "Farnell - 1874449" H 1850 1350 60  0001 C CNN "Fast Supplier Code 1"
+F 9 "HIROSE_DF23C-10DP-0.5V" H 1850 1350 60  0001 C CNN "Additional Mating Part"
+	1    1850 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 1550 1650 1550
+Wire Wire Line
+	1550 1050 1550 1550
+Wire Wire Line
+	1550 1450 1650 1450
+Wire Wire Line
+	1650 1350 1550 1350
+Connection ~ 1550 1450
+Wire Wire Line
+	1550 1250 1650 1250
+Connection ~ 1550 1350
+Wire Wire Line
+	1650 1150 1550 1150
+Connection ~ 1550 1250
+Wire Wire Line
+	2150 1550 2050 1550
+Wire Wire Line
+	2150 1150 2150 1550
+Wire Wire Line
+	2150 1450 2050 1450
+Wire Wire Line
+	2050 1350 2150 1350
+Connection ~ 2150 1450
+Wire Wire Line
+	2150 1250 2050 1250
+Connection ~ 2150 1350
+Wire Wire Line
+	2050 1150 2350 1150
+Connection ~ 2150 1250
+Wire Wire Line
+	2350 1150 2350 1250
+Connection ~ 2150 1150
+Connection ~ 1550 1150
+$Comp
+L GND #PWR07
+U 1 1 51517058
+P 2350 1250
+F 0 "#PWR07" H 2350 1250 50  0001 C CNN
+F 1 "GND" H 2350 1250 50  0001 C CNN
+F 2 "" H 2350 1250 60  0001 C CNN
+F 3 "" H 2350 1250 60  0001 C CNN
+	1    2350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L +12V #PWR08
+U 1 1 5151705E
+P 1550 1050
+F 0 "#PWR08" H 1550 1050 50  0001 C CNN
+F 1 "+12V" H 1550 1150 50  0000 C CNN
+F 2 "" H 1550 1050 60  0001 C CNN
+F 3 "" H 1550 1050 60  0001 C CNN
+	1    1550 1050
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	5050 5000 5050 5600
+Wire Notes Line
+	5900 5000 5900 5600
+Wire Notes Line
+	900  5000 5900 5000
+Wire Notes Line
+	5900 5150 900  5150
+Wire Notes Line
+	900  5300 5900 5300
+Wire Notes Line
+	5900 5450 900  5450
+Wire Notes Line
+	5900 5600 900  5600
+$Comp
+L AQLEDS_LOGO Z101
+U 1 1 5151FC6D
+P 2300 7300
+F 0 "Z101" H 2300 7400 50  0000 C CNN
+F 1 "AQLEDS_LOGO" H 2300 7300 50  0001 C CNN
+F 2 "AQLEDS_LOGO" H 2300 7300 50  0001 C CNN
+F 3 "TODO_DATASHEET" H 2300 7300 50  0001 C CNN
+F 4 "AQLEDS_LOGO" H 2300 7200 50  0000 C CNN "Label"
+F 5 "AQLEDS Aqua LEDs Logo" H 2300 7300 50  0001 C CNN "Keywords"
+F 6 "NOT_ASSEMBLE - NOT_ASSEMBLE" H 2300 7300 50  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 2300 7300 50  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 2300 7300 50  0000 C CNN "Variant"
+F 9 "NOT_ASSEMBLE - NOT_ASSEMBLE" H 2300 7300 50  0001 C CNN "Fast Supplier Code 1"
+	1    2300 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L PANASONIC_AXK7L10223G J102
+U 1 1 51562AD3
+P 3250 1350
+F 0 "J102" H 3250 1650 60  0000 C CNN
+F 1 "PANASONIC_AXK7L10223G" H 3250 1350 60  0001 C CNN
+F 2 "PANASONIC_AXK7L10223G" H 3250 1350 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 3250 1350 60  0001 C CNN
+F 4 "AXK7L10223G" H 3250 1050 60  0000 C CNN "Label"
+F 5 "Panasonic - AXK7L10223G" H 3250 1350 60  0001 C CNN "First Manufacturer Code"
+F 6 "Unknown - Unknown" H 3250 1350 60  0001 C CNN "Second Manufacturer Code"
+F 7 "~" H 3250 1350 60  0000 C CNN "Variant"
+F 8 "Unknown - Unknown" H 3250 1350 60  0001 C CNN "Fast Supplier Code 1"
+F 9 "PANASONIC_AXK8L10124BG" H 3250 1350 60  0001 C CNN "Additional Mating Part"
+	1    3250 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 1550 3050 1550
+Wire Wire Line
+	2950 1050 2950 1550
+Wire Wire Line
+	2950 1450 3050 1450
+Wire Wire Line
+	3050 1350 2950 1350
+Connection ~ 2950 1450
+Wire Wire Line
+	2950 1250 3050 1250
+Connection ~ 2950 1350
+Wire Wire Line
+	3050 1150 2950 1150
+Connection ~ 2950 1250
+Connection ~ 2950 1150
+$Comp
+L +12V #PWR09
+U 1 1 51562B3A
+P 2950 1050
+F 0 "#PWR09" H 2950 1050 50  0001 C CNN
+F 1 "+12V" H 2950 1150 50  0000 C CNN
+F 2 "" H 2950 1050 60  0001 C CNN
+F 3 "" H 2950 1050 60  0001 C CNN
+	1    2950 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 1550 3450 1550
+Wire Wire Line
+	3550 1150 3550 1550
+Wire Wire Line
+	3550 1450 3450 1450
+Wire Wire Line
+	3450 1350 3550 1350
+Connection ~ 3550 1450
+Wire Wire Line
+	3550 1250 3450 1250
+Connection ~ 3550 1350
+Wire Wire Line
+	3450 1150 3750 1150
+Connection ~ 3550 1250
+Wire Wire Line
+	3750 1150 3750 1250
+Connection ~ 3550 1150
+$Comp
+L GND #PWR010
+U 1 1 51562B4B
+P 3750 1250
+F 0 "#PWR010" H 3750 1250 50  0001 C CNN
+F 1 "GND" H 3750 1250 50  0001 C CNN
+F 2 "" H 3750 1250 60  0001 C CNN
+F 3 "" H 3750 1250 60  0001 C CNN
+	1    3750 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4200 5950 4200
+Wire Wire Line
+	6300 4200 7300 4200
+Text Label 4950 4200 0    60   ~ 0
+LED_3
+$Comp
+L NCR_0603 R104
+U 1 1 51AF0A44
+P 2000 2850
+F 0 "R104" V 2050 3150 60  0000 C CNN
+F 1 "NCR_0603" H 2000 2850 60  0001 C CNN
+F 2 "R_0603" H 2000 2850 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 2000 2850 60  0001 C CNN
+F 4 "NCR" V 2050 2550 60  0000 C CNN "Label"
+F 5 "Resistor NCR 0603" H 2000 2850 60  0001 C CNN "Keywords"
+F 6 "NOT_ASSEMBLE - NOT_ASSEMBLE" H 2000 2850 60  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 2000 2850 60  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 2000 2850 60  0000 C CNN "Variant"
+F 9 "Unknown" H 2000 2850 60  0001 C CNN "value"
+F 10 "NOT_ASSEMBLE - NOT_ASSEMBLE" H 2000 2850 60  0001 C CNN "Fast Supplier Code 1"
+	1    2000 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 2750 2750 2750
+Text Label 2500 2750 0    60   ~ 0
+LED_3
+Wire Wire Line
+	1550 2750 1750 2750
+Connection ~ 1550 2650
+$Comp
+L 0R_0603 R107
+U 1 1 51AF0B02
+P 2000 3550
+F 0 "R107" V 2050 3850 60  0000 C CNN
+F 1 "0R_0603" H 2000 3550 60  0001 C CNN
+F 2 "R_0603" H 2000 3550 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 2000 3550 60  0001 C CNN
+F 4 "0R" V 2050 3250 60  0000 C CNN "Label"
+F 5 "Resistor 0R 0603" H 2000 3550 60  0001 C CNN "Keywords"
+F 6 "Bourns - CR0603-J/-000ELF" H 2000 3550 60  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 2000 3550 60  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 2000 3550 60  0000 C CNN "Variant"
+F 9 "Farnell - 2008343" H 2000 3550 60  0001 C CNN "Fast Supplier Code 1"
+F 10 "1%" H 2000 3550 60  0001 C CNN "tolerance"
+	1    2000 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 3550 2750 3550
+Text Label 2500 3550 0    60   ~ 0
+LED_3
+Wire Wire Line
+	1550 3550 1750 3550
+Connection ~ 1550 3450
+Wire Wire Line
+	4950 1800 5950 1800
+Wire Wire Line
+	6300 1800 7300 1800
+Text Label 6300 4200 0    60   ~ 0
+LED_4
+$Comp
+L NCR_0603 R106
+U 1 1 51AF4DBF
+P 2000 3450
+F 0 "R106" V 2050 3750 60  0000 C CNN
+F 1 "NCR_0603" H 2000 3450 60  0001 C CNN
+F 2 "R_0603" H 2000 3450 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 2000 3450 60  0001 C CNN
+F 4 "NCR" V 2050 3150 60  0000 C CNN "Label"
+F 5 "Resistor NCR 0603" H 2000 3450 60  0001 C CNN "Keywords"
+F 6 "NOT_ASSEMBLE - NOT_ASSEMBLE" H 2000 3450 60  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 2000 3450 60  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 2000 3450 60  0000 C CNN "Variant"
+F 9 "Unknown" H 2000 3450 60  0001 C CNN "value"
+F 10 "NOT_ASSEMBLE - NOT_ASSEMBLE" H 2000 3450 60  0001 C CNN "Fast Supplier Code 1"
+	1    2000 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2250 3650 2750 3650
+Text Label 2500 3650 0    60   ~ 0
+LED_4
+Wire Wire Line
+	1550 3650 1750 3650
+Connection ~ 1550 3550
+Wire Wire Line
+	2250 2850 2750 2850
+Text Label 2500 2850 0    60   ~ 0
+LED_4
+Wire Wire Line
+	1550 2850 1750 2850
+Connection ~ 1550 2750
+$Comp
+L 0R_0603 R102
+U 1 1 51AF4FC0
+P 2000 2650
+F 0 "R102" V 2050 2950 60  0000 C CNN
+F 1 "0R_0603" H 2000 2650 60  0001 C CNN
+F 2 "R_0603" H 2000 2650 60  0001 C CNN
+F 3 "TODO_DATASHEET" H 2000 2650 60  0001 C CNN
+F 4 "100 Ohm" V 2050 2350 60  0000 C CNN "Label"
+F 5 "Resistor 0R 0603" H 2000 2650 60  0001 C CNN "Keywords"
+F 6 "Bourns - CR0603-J/-000ELF" H 2000 2650 60  0001 C CNN "First Manufacturer Code"
+F 7 "Unknown - Unknown" H 2000 2650 60  0001 C CNN "Second Manufacturer Code"
+F 8 "~" H 2000 2650 60  0000 C CNN "Variant"
+F 9 "Farnell - 2008343" H 2000 2650 60  0001 C CNN "Fast Supplier Code 1"
+F 10 "1%" H 2000 2650 60  0001 C CNN "tolerance"
+	1    2000 2650
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

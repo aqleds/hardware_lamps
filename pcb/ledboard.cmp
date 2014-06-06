@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2013-mar-13)-testing date = Wed 05 Jun 2013 03:20:58 PM WEST
+
+BeginCmp
+TimeStamp = /514F87D2;
+Reference = D101;
+ValeurCmp = HL-AF-5060H343W-3-S1-T1;
+IdModule  = LED-SMD-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F87E5;
+Reference = D102;
+ValeurCmp = HTLB4A-46;
+IdModule  = LED-SMD-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F87F2;
+Reference = D103;
+ValeurCmp = HTLB4A-48;
+IdModule  = LED-SMD-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F89DC;
+Reference = D104;
+ValeurCmp = HL-AF-5060H343W-3-S1-T1;
+IdModule  = LED-SMD-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F89E9;
+Reference = D105;
+ValeurCmp = HTLB4A-46;
+IdModule  = LED-SMD-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F89F6;
+Reference = D106;
+ValeurCmp = HTLB4A-48;
+IdModule  = LED-SMD-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /51516AC7;
+Reference = J101;
+ValeurCmp = HIROSE_DF23C-10DS-0.5V;
+IdModule  = HIROSE_DF23C-10DS-0.5V;
+EndCmp
+
+BeginCmp
+TimeStamp = /51562AD3;
+Reference = J102;
+ValeurCmp = PANASONIC_AXK7L10223G;
+IdModule  = PANASONIC_AXK7L10223G;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F8481;
+Reference = R101;
+ValeurCmp = 0R_0603;
+IdModule  = R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AF4FC0;
+Reference = R102;
+ValeurCmp = 0R_0603;
+IdModule  = R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F84F3;
+Reference = R103;
+ValeurCmp = NCR_0603;
+IdModule  = R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AF0A44;
+Reference = R104;
+ValeurCmp = NCR_0603;
+IdModule  = R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F8575;
+Reference = R105;
+ValeurCmp = NCR_0603;
+IdModule  = R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AF4DBF;
+Reference = R106;
+ValeurCmp = NCR_0603;
+IdModule  = R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /51AF0B02;
+Reference = R107;
+ValeurCmp = 0R_0603;
+IdModule  = R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /514F84EB;
+Reference = R108;
+ValeurCmp = 0R_0603;
+IdModule  = R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5151FC6D;
+Reference = Z101;
+ValeurCmp = AQLEDS_LOGO;
+IdModule  = AQLEDS_LOGO;
+EndCmp
+
+EndListe

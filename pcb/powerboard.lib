@@ -1,0 +1,151 @@
+EESchema-LIBRARY Version 2.3  Date: Thu 07 Feb 2013 10:10:53 PM WET
+#encoding utf-8
+#
+# AQLEDS_LOGO
+#
+DEF AQLEDS_LOGO Z 0 60 Y Y 1 F N
+F0 "Z" 0 0 50 H V C CNN
+F1 "AQLEDS_LOGO" 0 0 50 H I C CNN
+F2 "AQLEDS_LOGO" 0 0 50 H I C CNN
+F3 "TODO_DATASHEET" 0 0 50 H I C CNN
+F4 "AQLEDS_LOGO" 0 0 50 H V C CNN "Label"
+F5 "AQLEDS Aqua LEDs Logo" 0 0 50 H I C CNN "Keywords"
+F6 "NOT_ASSEMBLE - NOT_ASSEMBLE" 0 0 50 H I C CNN "First Manufacturer Code"
+F7 "Unknown - Unknown" 0 0 50 H I C CNN "Second Manufacturer Code"
+F8 "~" 0 0 50 H V C CNN "Variant"
+F9 "NOT_ASSEMBLE - NOT_ASSEMBLE" 0 0 50 H I C CNN "Fast Supplier Code 1"
+DRAW
+S -50 50 50 -50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# CONN_SMD452
+#
+DEF CONN_SMD452 J 0 60 Y N 1 F N
+F0 "J" 0 0 60 H V C CNN
+F1 "CONN_SMD452" 0 0 60 H I C CNN
+F2 "SMD452" 0 0 60 H I C CNN
+F3 "TODO_DATASHEET" 0 0 60 H I C CNN
+F4 "SMD452" 0 0 60 H V C CNN "Label"
+F5 "Connector 2 SIL SMD SMD452" 0 0 60 H I C CNN "Keywords"
+F6 "Hombon - SMD452" 0 0 60 H I C CNN "First Manufacturer Code"
+F7 "Unknown - Unknown" 0 0 60 H I C CNN "Second Manufacturer Code"
+F8 "~" 0 0 60 H V C CNN "Variant"
+F9 "Unknown - Unknown" 0 0 60 H I C CNN "Fast Supplier Code 1"
+DRAW 
+C 0 -150 25 0 1 0 N
+C 0 -50 25 0 1 0 N
+C 0 50 25 0 1 0 N
+C 0 150 25 0 1 0 N
+S -50 200 50 -200 0 1 0 N
+X ~ 1 -150 150 100 R 50 50 1 1 P
+X ~ 2 -150 50 100 R 50 50 1 1 P
+X ~ 3 -150 -50 100 R 50 50 1 1 P
+X ~ 4 -150 -150 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TERM_BLOCK_2POS_5MM
+#
+DEF TERM_BLOCK_2POS_5MM J 0 60 Y N 1 F N
+F0 "J" 0 0 60 H V C CNN
+F1 "TERM_BLOCK_2POS" 0 0 60 H I C CNN
+F2 "CONN_PHOENIX_2,5/2-G-5,08" 0 0 60 H I C CNN
+F4 "TERM_BLOCK_2POS" 0 0 60 H V C CNN "Label"
+F5 "TERM BLOCK, 2POS, 5MM" 0 0 60 H I C CNN "Description"
+F6 "Multicomp - MC000200" 0 0 60 H I C CNN "First Manufacturer Code"
+F7 "Unknown - Unknown" 0 0 60 H I C CNN "Second Manufacturer Code"
+F8 "~" 0 0 60 H V C CNN "Variant"
+F9 "Farnell - 2008188" 0 0 60 H I C CNN "Fast Supplier Code 1"
+F10 "TERM_BLOCK_2POS_5MM_MATE" 0 0 60 H I C CNN "Additional Mating Part"
+F11 "None" 0 0 60 H I C CNN "Additional Contact"
+F12 "0" 0 0 60 H I C CNN "Contact Quantity"
+DRAW
+P 5 0 1 5 -100 200 100 0 -100 0 100 -200 100 -150 N
+S -100 200 100 -200 0 1 5 N
+C 0 100 100 0 1 0 N
+C 0 -100 100 0 1 0 N
+X 2 2 -200 -100 100 R 50 50 1 1 I
+X 1 1 -200 100 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TERM_BLOCK_2POS_5MM_MATE
+#
+DEF TERM_BLOCK_2POS_5MM_MATE J 0 60 Y N 1 F N
+F0 "J" 0 0 60 H V C CNN
+F1 "TERM_BLOCK_2POS" 0 0 60 H I C CNN
+F2 "CONN_PHOENIX_2,5/2-ST-5,08" 0 0 60 H I C CNN
+F4 "TERM_BLOCK_2POS" 0 0 60 H V C CNN "Label"
+F5 "TERM BLOCK, 2POS, 5MM" 0 0 60 H I C CNN "Description"
+F6 "IMO Precision Controls - 21.950M/2" 0 0 60 H I C CNN "First Manufacturer Code"
+F7 "Unknown - Unknown" 0 0 60 H I C CNN "Second Manufacturer Code"
+F8 "~" 0 0 60 H V C CNN "Variant"
+F9 "Farnell - 9633030" 0 0 60 H I C CNN "Fast Supplier Code 1"
+DRAW
+S -50 50 50 -50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+# MOUNTING_HOLE_3.5MM
+#
+DEF MOUNTING_HOLE_3.5MM Z 0 60 N N 1 F N
+F0 "Z" 0 0 60 H V C CNN
+F1 "MOUNTING_HOLE_3.5MM" 0 0 60 H I C CNN
+F2 "HOLE_PLATED_3.5MM" 0 0 60 H I C CNN
+F3 "TODO_DATASHEET" 0 0 60 H I C CNN
+F4 "MOUNTING_HOLE_3.5MM" 0 0 60 H V C CNN "Label"
+F5 "Mounting Hole 3.5MM opening plated" 0 0 60 H I C CNN "Keywords"
+F6 "NOT_ASSEMBLE - NOT_ASSEMBLE" 0 0 60 H I C CNN "First Manufacturer Code"
+F7 "NOT_ASSEMBLE - NOT_ASSEMBLE" 0 0 60 H I C CNN "Second Manufacturer Code"
+F8 "~" 0 0 60 H V C CNN "Variant"
+F9 "NOT_ASSEMBLE - NOT_ASSEMBLE" 0 0 60 H I C CNN "Fast Supplier Code 1"
+DRAW
+A 0 0 50 1 1799 0 1 0 N 50 0 -50 0
+S -10 0 10 -50 0 1 0 N
+P 3 0 1 0  -50 0  50 0  50 0 N
+P 3 0 1 0  -20 -40  20 -40  20 -40 N
+P 3 0 1 0  -20 -30  20 -30  20 -30 N
+P 3 0 1 0  -20 -20  20 -20  20 -20 N
+P 3 0 1 0  -20 -10  20 -10  20 -10 N
+P 7 0 1 0  -10 50  -10 20  10 20  10 50  10 50  10 50  10 50 N
+X ~ 1 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# +12V
+#
+DEF +12V #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 0 50 H I C CNN
+F1 "+12V" 0 0 50 H V C CNN
+DRAW
+X +12V 1 0 0 0 U 50 50 0 0 W N
+C 0 50 20 0 1 0 N
+P 4 0 1 0  0 0  0 30  0 30  0 30 N
+ENDDRAW
+ENDDEF
+#
+# GND
+#
+DEF GND #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 0 50 H I C CNN
+F1 "GND" 0 0 50 H I C CNN
+DRAW
+P 4 0 1 0  -50 0  0 -50  50 0  -50 0 N
+X GND 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# PWR_FLAG
+#
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 0 50 H I C CNN
+F1 "PWR_FLAG" 0 0 50 H V C CNN
+DRAW
+X pwr 1 0 0 0 U 20 20 0 0 w N
+P 3 0 1 0  0 0  0 100  0 100 N
+P 5 0 1 0  0 100  -100 150  0 200  100 150  0 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
